@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingHorizontal="25dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/robotobold"
+        android:text="Masuk"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/robotoreguler"
+        android:text="Email"
+        android:textColor="#29293E"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/robotolight"
+        android:hint="makhalibagas@gmail.com"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/robotoreguler"
+        android:text="Password"
+        android:textColor="#29293E"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:drawableStart="@drawable/ic_locked"
+        android:drawablePadding="10dp"
+        android:hint="******"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:textColor="#C4C4C4"
+        android:textSize="12sp" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/purple_700" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="@font/robotobold"
+            android:text="Masuk"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:cornerRadius="6dp" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoreguler"
+            android:text="Belum punya akun?"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/robotoreguler"
+            android:text="Daftar"
+            android:textColor="@color/purple_700" />
+
+    </LinearLayout>
+
+</LinearLayout>

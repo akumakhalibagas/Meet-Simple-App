@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MeetSimpleApp</string>
+    <string name="emailAlert">Format salah</string>
+    <string name="passwordAlert">"Kurang dari 6 "</string>
+    <string name="succes">Berhasil</string>
+    <string name="error">Terjasi kesalahan</string>
+    <string name="videocall">Panggilan video dari...</string>
+    <string name="audiocall">Panggilan audio dari...</string>
+</resources>

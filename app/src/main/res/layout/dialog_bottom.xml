@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/link_meet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/ic_baseline_link_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/robotoreguler"
+        android:gravity="center"
+        android:text="Dapatkan link rapat untuk dibagikan"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/start_meet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20sp"
+        android:drawableStart="@drawable/ic_baseline_videocam_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/robotoreguler"
+        android:gravity="center"
+        android:text="Mulai rapat instan"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_baseline_close_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/robotoreguler"
+        android:gravity="center"
+        android:text="Tutup"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

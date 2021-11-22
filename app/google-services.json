@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "921871565121",
+    "project_id": "meetsimpleapp",
+    "storage_bucket": "meetsimpleapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921871565121:android:cc61b3265efa0a02e621c0",
+        "android_client_info": {
+          "package_name": "com.makhalibagas.meetsimpleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921871565121-nd2ohpoqcscuh29rcejgjtc70nngchb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnWHQaKp40uasV9LW3CgFTexrk9naN6Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921871565121-nd2ohpoqcscuh29rcejgjtc70nngchb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

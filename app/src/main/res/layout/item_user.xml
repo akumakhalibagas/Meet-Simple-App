@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_char"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_char"
+        android:gravity="center"
+        android:text="B"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/robotoreguler"
+        android:text="Bagas Makhali"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintStart_toEndOf="@id/tv_char"
+        app:layout_constraintTop_toTopOf="@id/tv_char" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="makhalibagas@gmail.com"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@id/tv_char"
+        app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+    <ImageButton
+        android:id="@+id/videocall"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/ic_baseline_videocam_24"
+        android:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="@id/tv_char"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_char" />
+
+    <ImageButton
+        android:id="@+id/audiocall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/ic_baseline_call_24"
+        android:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="@id/tv_char"
+        app:layout_constraintEnd_toStartOf="@id/videocall"
+        app:layout_constraintTop_toTopOf="@id/tv_char" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
